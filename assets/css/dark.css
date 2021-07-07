@@ -1,0 +1,85 @@
+/*----------------------------------------
+Setting the Font for website
+------------------------------------------*/
+
+*:not(.fa) {
+    font-family:'Ubuntu', 'Georgia', 'Sans-Serif';
+}
+
+/*----------------------------------------
+Setting the HTML behavior now.
+------------------------------------------*/
+
+html {
+    --background-color: #212121;
+    --text-color: #F5F5F5;
+    --headings: var(--text-color);
+}
+
+/*----------------------------------------
+Setting up the body of webpage
+------------------------------------------*/
+
+body {
+    margin: 60px auto;
+    width: 70%;
+    background-color: var(--background-color);
+}
+
+.container {
+    background-color: var(--background-color);
+}
+
+/*----------------------------------------
+Setting up the navigation and footer menu.
+------------------------------------------*/
+
+nav ul, footer ul {
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+    text-align: center;
+}
+
+nav ul li, footer ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+/*----------------------------------------
+Setting up the text behavior.
+------------------------------------------*/
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--headings);
+}
+
+p, strong, b, em, span, code, small, li {
+    color: var(--text-color);
+}
+
+/*----------------------------------------
+Setting up the link behavior now.
+------------------------------------------*/
+a:link {color: #FAFAFA;}
+a:visited {color: var(--text-color);}
+a:hover {text-decoration: underline;}
+a:active {color: #FAFAFA;}
+
+/*----------------------------------------
+Setting up the text footer, list and button behavior now.
+------------------------------------------*/
+
+footer {
+    border-top: 1px solid #d5d5d5;
+    font-size: .8em;
+}
+
+ul.posts { 
+    margin: 20px auto 40px; 
+    font-size: 1.3em;
+}
+
+ul.posts li {
+    list-style: none;
+}

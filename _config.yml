@@ -1,0 +1,8 @@
+name: The Thought Archive
+markdown: kramdown
+baseurl: lakshy-sharma.github.io/The-Thought-Archive
+blog_name: The-Thought-Archive
+permalink: /blog/:year/:month/:day/:title/
+plugins:
+  - jekyll-sitemap
+excerpt_separator: <!--display-->

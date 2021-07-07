@@ -1,0 +1,10 @@
+---
+layout: default
+title: The Thought Archive - List of Blogs Written
+---
+	<h2>List of All Posts Published.</h2>
+		<ol>
+			{% for post in site.posts %}
+			<li><a href="/The-Thought-Archive{{ post.url }}"><b>{{ post.title }}</b></a>{{ post.excerpt }}</li>
+			{% endfor %}
+		</ol>
