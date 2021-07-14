@@ -83,3 +83,11 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+
+.button {
+    background-color: var(--background-color);
+    border: none;
+    text-align: center;
+    color : var(--text-color);
+    text-decoration : none;
+}
